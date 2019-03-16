@@ -8,6 +8,7 @@ import Service.ClientService;
 import Service.MedicamentService;
 import Service.TransactionService;
 import UI.Console;
+import UI.NewConsole;
 
 public class Main {
 
@@ -24,7 +25,7 @@ public class Main {
             TransactionRepository transactionRepository = new TransactionRepository(transactionValidator);
             TransactionService transactionService = new TransactionService(transactionRepository, medicamentRepository, clientRepository);
 
-            Console console = new Console(medicamentService,clientService,transactionService);
+            NewConsole console = new NewConsole(medicamentService,clientService,transactionService);
             console.run();
 
     }
