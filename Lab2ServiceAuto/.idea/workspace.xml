@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7a7195c-d1d6-4b7b-9fe5-bf8b6b1404ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Domain/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Domain/ClientValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Domain/Medicament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Domain/MedicamentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Domain/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Domain/TransactionValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Repository/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Repository/MedicamentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Repository/TransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Service/ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Service/MedicamentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/Service/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2Farmacie/src/UI/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1Hotel.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Domain/AverageRoomRating.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Domain/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Domain/RoomValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Repository/RoomRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Service/RoomService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/Console.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d7a7195c-d1d6-4b7b-9fe5-bf8b6b1404ee" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +14,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="24" column="127" selection-start-line="24" selection-start-column="127" selection-end-line="24" selection-end-column="127" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/TransactionRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/TransactionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="17">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UI/NewConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="55" column="122" selection-end-line="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,12 +168,13 @@
         <option value="$PROJECT_DIR$/src/Domain/Transaction.java" />
         <option value="$PROJECT_DIR$/src/Domain/Car.java" />
         <option value="$PROJECT_DIR$/src/UI/Console.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Service/TransactionService.java" />
+        <option value="$PROJECT_DIR$/src/UI/NewConsole.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -240,6 +216,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Lab2ServiceAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2ServiceAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -250,8 +232,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552730359299" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552740526318" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2Cinema" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -295,16 +277,17 @@
       <workItem from="1552640324048" duration="5060000" />
       <workItem from="1552649781202" duration="2539000" />
       <workItem from="1552723631121" duration="2578000" />
+      <workItem from="1552740297292" duration="315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10177000" />
+    <option name="totallyTimeSpent" value="10492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18657719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18926175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,6 +380,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/TransactionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -462,30 +455,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="24" column="127" selection-start-line="24" selection-start-column="127" selection-end-line="24" selection-end-column="127" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/TransactionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/TransactionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="17">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/NewConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="55" column="122" selection-end-line="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

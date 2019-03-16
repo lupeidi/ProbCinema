@@ -8,6 +8,7 @@ import Service.ClientService;
 import Service.MovieService;
 import Service.ReservationService;
 import UI.Console;
+import UI.NewConsole;
 
 public class main {
     public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class main {
         ReservationRepository rrepository = new ReservationRepository(rvalidator);
         ReservationService rservice = new ReservationService(rrepository, mrepository, crepository);
 
-        Console console = new Console(mservice,cservice,rservice);
+        NewConsole console = new NewConsole(mservice,cservice,rservice);
         console.run();
     }
 }
