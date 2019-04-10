@@ -1,40 +1,50 @@
 package Domain;
 
-public class Movie {
-    private String id;
+import java.util.Objects;
+
+public class Movie extends Entity {
+
     private String title;
     private int releaseYear;
     private double price;
     private boolean airing;
-    private int bonusPoints;
+    private int bookings;
 
     public Movie(String id, String title, int releaseYear, double price, boolean airing) {
-        this.id = id;
+        super(id);
         this.title = title;
         this.releaseYear = releaseYear;
         this.price = price;
         this.airing = airing;
-        this.bonusPoints = (int) (this.price / 10);
+        this.bookings = 0;
+    }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Movie movie = (Movie) o;
+        return releaseYear == movie.releaseYear &&
+                Double.compare(movie.price, price) == 0 &&
+                airing == movie.airing &&
+                title.equals(movie.title);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), title, releaseYear, price, airing);
     }
 
     @Override
     public String toString() {
         return "Movie{" +
-                "id='" + id + '\'' +
+                "id='" + getId() + '\'' +
                 ", title='" + title + '\'' +
                 ", releaseYear=" + releaseYear +
                 ", price=" + price +
                 ", airing=" + airing +
                 '}';
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getTitle() {
@@ -69,7 +79,11 @@ public class Movie {
         this.airing = airing;
     }
 
-    public int getBonusPoints() {
-        return bonusPoints;
+    public int getBookings() {
+        return bookings;
+    }
+
+    public void setBookings(int bookings) {
+        this.bookings = bookings;
     }
 }

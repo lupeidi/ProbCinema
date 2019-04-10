@@ -2,21 +2,16 @@ package Domain;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
-public class ReservationValidator {
+public class ReservationValidator implements IValidator<Reservation> {
 
     public void validate(Reservation reservation) {
-            SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
-            SimpleDateFormat formatHour = new SimpleDateFormat("hh.mm");
-            try {
-                format.parse(reservation.getDate());
-            } catch (ParseException pe) {
-                throw new RuntimeException("Date is not in a correct format!");
-            }
-        try {
-            formatHour.parse(reservation.getHour());
-        } catch (ParseException pe) {
-            throw new RuntimeException("Hour is not in a correct format!");
+        if (reservation.getDate().getYear() > (Calendar.getInstance().get(Calendar.YEAR) + 1) ){
+            throw new RuntimeException("Reservation year is not allowed yet");
+        }
+        else if (reservation.getDate().getYear() < Calendar.getInstance().get(Calendar.YEAR) ){
+            throw new RuntimeException("Reservation year must not be in the past");
         }
     }
 }

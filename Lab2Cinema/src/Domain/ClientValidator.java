@@ -1,24 +1,26 @@
 package Domain;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.Calendar;
 
-public class ClientValidator {
+public class ClientValidator implements IValidator<Client> {
     public void validate(Client client){
-        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
-        try {
-            format.parse(client.getBirthdayDate());
-        } catch (ParseException pe) {
-            throw new RuntimeException("Birthday date is not in a correct format!");
-        }
-
-        try {
-            format.parse(client.getRegistrationDate());
-        } catch (ParseException pe) {
-            throw new RuntimeException("Registration date is not in a correct format!");
-        }
-
         if (client.getCnp().length() != 13) {
             throw new RuntimeException("Client CNP is not valid!");
         }
+        if (client.getPoints() < 0) {
+            throw new RuntimeException("Bonus points must be positive.");
+        }
+        int curentYear = Calendar.getInstance().get(Calendar.YEAR);
+        int dif = curentYear - client.getBirthdayDate().getYear();
+        if( dif > 100 || dif < 10 ) {
+            throw new RuntimeException("Client must be between 10 and 100 years old");
+        }
+        if( curentYear - client.getRegistrationDate().getYear() > 10 ) {
+            throw new RuntimeException("Registration date must be at most 10 years ago");
+        }
+
     }
 }

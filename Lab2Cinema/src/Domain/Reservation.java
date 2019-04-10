@@ -1,14 +1,17 @@
 package Domain;
 
-public class Reservation {
-    private String id;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.util.Objects;
+
+public class Reservation extends Entity{
     private String id_movie;
     private String id_client;
-    private String date;
-    private String hour;
+    private LocalDate date;
+    private LocalTime hour;
 
-    public Reservation(String id, String id_movie, String id_client, String date, String hour) {
-        this.id = id;
+    public Reservation(String id, String id_movie, String id_client, LocalDate date, LocalTime hour) {
+        super(id);
         this.id_movie = id_movie;
         this.id_client = id_client;
         this.date = date;
@@ -18,7 +21,7 @@ public class Reservation {
     @Override
     public String toString() {
         return "Reservation{" +
-                "id='" + id + '\'' +
+                "id='" + getId()+ '\'' +
                 ", id_movie='" + id_movie + '\'' +
                 ", id_client='" + id_client + '\'' +
                 ", date='" + date + '\'' +
@@ -26,12 +29,21 @@ public class Reservation {
                 '}';
     }
 
-    public String getId() {
-        return id;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Reservation that = (Reservation) o;
+        return id_movie.equals(that.id_movie) &&
+                id_client.equals(that.id_client) &&
+                date.equals(that.date) &&
+                hour.equals(that.hour);
     }
 
-    public void setId(String id) {
-        this.id = id;
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), id_movie, id_client, date, hour);
     }
 
     public String getId_movie() {
@@ -50,19 +62,19 @@ public class Reservation {
         this.id_client = id_client;
     }
 
-    public String getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 
-    public String getHour() {
+    public LocalTime getHour() {
         return hour;
     }
 
-    public void setHour(String hour) {
+    public void setHour(LocalTime hour) {
         this.hour = hour;
     }
 }

@@ -1,18 +1,19 @@
 package Domain;
 
+import java.time.LocalDate;
 import java.util.Objects;
 
-public class Client {
-    private String id;
+public class Client extends Entity {
+
     private String firstName;
     private String lastName;
     private String cnp;
-    private String birthdayDate;
-    private String registrationDate;
+    private LocalDate birthdayDate;
+    private LocalDate registrationDate;
     private int points;
 
-    public Client(String id, String firstName, String lastName, String cnp, String birthdayDate, String registrationDate, int points) {
-        this.id = id;
+    public Client(String id, String firstName, String lastName, String cnp, LocalDate birthdayDate, LocalDate registrationDate, int points) {
+        super(id);
         this.firstName = firstName;
         this.lastName = lastName;
         this.cnp = cnp;
@@ -24,7 +25,7 @@ public class Client {
     @Override
     public String toString() {
         return "Client{" +
-                "id='" + id + '\'' +
+                "id='" + getId() + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", cnp='" + cnp + '\'' +
@@ -38,21 +39,19 @@ public class Client {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
         Client client = (Client) o;
-        return Objects.equals(id, client.id);
+        return points == client.points &&
+                firstName.equals(client.firstName) &&
+                lastName.equals(client.lastName) &&
+                cnp.equals(client.cnp) &&
+                birthdayDate.equals(client.birthdayDate) &&
+                registrationDate.equals(client.registrationDate);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, lastName, cnp, birthdayDate, registrationDate, points);
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
+        return Objects.hash(super.hashCode(), firstName, lastName, cnp, birthdayDate, registrationDate, points);
     }
 
     public String getFirstName() {
@@ -79,19 +78,19 @@ public class Client {
         this.cnp = cnp;
     }
 
-    public String getBirthdayDate() {
+    public LocalDate getBirthdayDate() {
         return birthdayDate;
     }
 
-    public void setBirthdayDate(String birthdayDate) {
+    public void setBirthdayDate(LocalDate birthdayDate) {
         this.birthdayDate = birthdayDate;
     }
 
-    public String getRegistrationDate() {
+    public LocalDate getRegistrationDate() {
         return registrationDate;
     }
 
-    public void setRegistrationDate(String registrationDate) {
+    public void setRegistrationDate(LocalDate registrationDate) {
         this.registrationDate = registrationDate;
     }
 
