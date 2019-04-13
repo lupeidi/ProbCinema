@@ -3,7 +3,6 @@ package UI;
 import Domain.Client;
 import Domain.Movie;
 import Domain.Reservation;
-import Repository.ReservationRepository;
 import Service.MovieService;
 import Service.ClientService;
 import Service.ReservationService;
@@ -17,14 +16,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.util.converter.DoubleStringConverter;
 
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -87,29 +82,6 @@ public class Controller {
         });
     }
 
-//    public void editMovieName(TableColumn.CellEditEvent cellEditEvent) {
-//        Movie editedMovie = (Movie)cellEditEvent.getRowValue();
-//        try {
-//            String newName = (String)cellEditEvent.getNewValue();
-//            movieService.addOrUpdate(editedMovie.getId(), newName, editedMovie.getReleaseYear(), editedMovie.getPrice(), editedMovie.isAiring());
-//            editedMovie.setTitle(newName);
-//        } catch (RuntimeException rex) {
-//            Common.showValidationError(rex.getMessage());
-//        }
-//        tableViewMovies.refresh();
-//    }
-
-//    public void editMovieReleaseYear(TableColumn.CellEditEvent cellEditEvent) {
-//        Movie editedMovie = (Movie)cellEditEvent.getRowValue();
-//        try {
-//            int newYear = (int)cellEditEvent.getNewValue();
-//            movieService.addOrUpdate(editedMovie.getId(), editedMovie.getTitle(), newYear, editedMovie.getPrice(), editedMovie.isAiring());
-//            editedMovie.setReleaseYear(newYear);
-//        } catch (RuntimeException rex) {
-//            Common.showValidationError(rex.getMessage());
-//        }
-//        tableViewMovies.refresh();
-//    }
 
     public void upsertMovie(FXMLLoader fxmlLoader, String text) {
         try {
@@ -167,7 +139,7 @@ public class Controller {
 
     public void btnMovieAddClick(ActionEvent actionEvent) {
             FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("movieAdd.fxml"));
+            fxmlLoader.setLocation(getClass().getResource("../Resources/movieAdd.fxml"));
             upsertMovie(fxmlLoader, "Add/Update Movie");
     }
 
@@ -186,7 +158,7 @@ public class Controller {
 
     public void btnClientAddClick(ActionEvent actionEvent) {
         FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("clientAdd.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("../Resources/clientAdd.fxml"));
         upsertClient(fxmlLoader, "Add/Update Client");
     }
 
@@ -205,7 +177,7 @@ public class Controller {
 
     public void btnReservationAddClick(ActionEvent actionEvent) {
         FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("reservationAdd.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("../Resources/reservationAdd.fxml"));
         upsertReservation(fxmlLoader, "Add/Update Reservation");
     }
 
@@ -222,12 +194,157 @@ public class Controller {
         }
     }
 
-    public void btnSearchClick (ActionEvent actionEvent) {
-
+    public void btnMovieUndoClick(ActionEvent actionEvent) {
+        movieService.undo();
+        movies.clear();
+        movies.addAll(movieService.getAll());
     }
-//
-//    public void btnCancelClick(ActionEvent actionEvent) {
-//        Stage stage = (Stage) btnCancel.getScene().getWindow();
-//        stage.close();
-//    }
+
+    public void btnMovieRedoClick(ActionEvent actionEvent) {
+        movieService.redo();
+        movies.clear();
+        movies.addAll(movieService.getAll());
+    }
+
+    public void btnClientUndoClick(ActionEvent actionEvent) {
+        clientService.undo();
+        clients.clear();
+        clients.addAll(clientService.getAll());
+    }
+
+    public void btnClientRedoClick(ActionEvent actionEvent) {
+        clientService.redo();
+        clients.clear();
+        clients.addAll(clientService.getAll());
+    }
+
+    public void btnReservationUndoClick(ActionEvent actionEvent) {
+        reservationService.undo();
+        reservations.clear();
+        reservations.addAll(reservationService.getAll());
+    }
+
+    public void btnReservationRedoClick(ActionEvent actionEvent) {
+        reservationService.redo();
+        reservations.clear();
+        reservations.addAll(reservationService.getAll());
+    }
+
+    public void reservationSearch(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../Resources/reservationSearch.fxml"));
+
+            Scene scene = new Scene(fxmlLoader.load(), 600, 600);
+            Stage stage = new Stage();
+            stage.setTitle("Reservation Search");
+            stage.setScene(scene);
+            stage.initModality(Modality.APPLICATION_MODAL);
+            ReservationSearchController controller = fxmlLoader.getController();
+            controller.setService(reservationService);
+            stage.showAndWait();
+        } catch (IOException e) {
+            Logger logger = Logger.getLogger(getClass().getName());
+            logger.log(Level.SEVERE, "Failed to create new Window:", e);
+        }
+    }
+
+    public void moviesByReservations(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../Resources/moviesByReservations.fxml"));
+
+            Scene scene = new Scene(fxmlLoader.load(), 600, 600);
+            Stage stage = new Stage();
+            stage.setTitle("Movies ordered by reservations");
+            stage.setScene(scene);
+            stage.initModality(Modality.APPLICATION_MODAL);
+            MoviesByReservationsController controller = fxmlLoader.getController();
+            controller.setService(movieService);
+            stage.showAndWait();
+        } catch (IOException e) {
+            Logger logger = Logger.getLogger(getClass().getName());
+            logger.log(Level.SEVERE, "Failed to create new Window: ", e);
+        }
+    }
+
+    public void clientsByPoints(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../Resources/clientsByPoints.fxml"));
+
+            Scene scene = new Scene(fxmlLoader.load(), 900, 600);
+            Stage stage = new Stage();
+            stage.setTitle("Clients ordered by points");
+            stage.setScene(scene);
+            stage.initModality(Modality.APPLICATION_MODAL);
+            ClientsByPointsController controller = fxmlLoader.getController();
+            controller.setService(clientService);
+            stage.showAndWait();
+        } catch (IOException e) {
+            Logger logger = Logger.getLogger(getClass().getName());
+            logger.log(Level.SEVERE, "Failed to create new Window: ", e);
+        }
+    }
+
+    public void bonusPoints(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../Resources/bonusPoints.fxml"));
+
+            Scene scene = new Scene(fxmlLoader.load(), 900, 600);
+            Stage stage = new Stage();
+            stage.setTitle("Bonus Points");
+            stage.setScene(scene);
+            stage.initModality(Modality.APPLICATION_MODAL);
+            BonusPointsController controller = fxmlLoader.getController();
+            controller.setService(clientService);
+            stage.showAndWait();
+            clients.clear();
+            clients.addAll(clientService.getAll());
+        } catch (IOException e) {
+            Logger logger = Logger.getLogger(getClass().getName());
+            logger.log(Level.SEVERE, "Failed to create new Window: ", e);
+        }
+    }
+
+    public void reservationsPeriodRemove (ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../Resources/reservationPeriodRemove.fxml"));
+
+            Scene scene = new Scene(fxmlLoader.load(), 1000, 400);
+            Stage stage = new Stage();
+            stage.setTitle("Remove reservations in date range");
+            stage.setScene(scene);
+            stage.initModality(Modality.APPLICATION_MODAL);
+            ReservationPeriodRemoveController controller = fxmlLoader.getController();
+            controller.setService(reservationService);
+            stage.showAndWait();
+            reservations.clear();
+            reservations.addAll(reservationService.getAll());
+        } catch (IOException e) {
+            Logger logger = Logger.getLogger(getClass().getName());
+            logger.log(Level.SEVERE, "Failed to create new Window: ", e);
+        }
+    }
+
+    public void searchClick(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("../Resources/search.fxml"));
+
+            Scene scene = new Scene(fxmlLoader.load(), 1000, 600);
+            Stage stage = new Stage();
+            stage.setTitle("Text Search");
+            stage.setScene(scene);
+            stage.initModality(Modality.APPLICATION_MODAL);
+            SearchController controller = fxmlLoader.getController();
+            controller.setService(movieService, clientService, reservationService);
+            stage.showAndWait();
+        } catch (IOException e) {
+            Logger logger = Logger.getLogger(getClass().getName());
+            logger.log(Level.SEVERE, "Failed to create new Window: ", e);
+        }
+    }
 }

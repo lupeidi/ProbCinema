@@ -3,29 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="f89e0248-6146-44b4-a7bc-8a88c396f492" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2Cinema.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2Cinema.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/ClientValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/ClientValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/Movie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/MovieValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/MovieValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/Reservation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/ReservationValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Domain/ReservationValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Service/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Service/ClientService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Service/MovieService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/Service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/Service/ReservationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/UI/Console.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/UI/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/UI/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/UI/clientAdd.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/UI/mainWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/UI/movieAdd.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/UI/reservationAdd.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab2Cinema/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2Cinema/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/ClientValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/ClientValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/MovieValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/MovieValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Reservation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/ReservationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/ReservationValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/IRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/NewConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/NewConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/clientAdd.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/clientAdd.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/mainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/mainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/movieAdd.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/movieAdd.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/reservationAdd.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/reservationAdd.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simulare/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +50,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/UI/MovieAddController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/UpdateOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+            <state relative-caret-position="202">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/UndoRedoOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,58 +77,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/movieAdd.fxml">
+        <entry file="file://$PROJECT_DIR$/src/Service/AddOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/RemoveOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Domain/ClientValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/ReservationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="155" column="23" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Domain/MovieValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Domain/ReservationValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3043">
-              <caret line="205" column="38" selection-start-line="205" selection-start-column="16" selection-end-line="205" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/mainWindow.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="144" column="15" selection-start-line="144" selection-start-column="15" selection-end-line="144" selection-end-column="15" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/NewConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/reservationAdd.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/ReservationAddController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="918">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,37 +149,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Reservation.java">
+        <entry file="file://$PROJECT_DIR$/clients.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/ClientAddController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/clientAdd.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="88" selection-start-line="65" selection-start-column="88" selection-end-line="65" selection-end-column="88" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -153,32 +162,43 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>client</find>
-      <find>Client</find>
-      <find>Room</find>
-      <find>hour</find>
-      <find>Car</find>
-      <find>car</find>
-      <find>showMenu</find>
-      <find>transaction</find>
-      <find>Transaction</find>
-      <find>cake</find>
-      <find>Cake</find>
-      <find>movie</find>
-      <find>Movie</find>
-      <find>contr</find>
-      <find>set</find>
-      <find>ind</find>
-      <find>index</find>
       <find>btnMovieAdd</find>
       <find>releaseYear</find>
+      <find>undo</find>
+      <find>booking</find>
+      <find>frequences</find>
+      <find>updateOperation</find>
+      <find>update</find>
+      <find>movieByReservationsVM</find>
+      <find>Booking</find>
+      <find>clientService</find>
+      <find>card</find>
+      <find>Card</find>
+      <find>bookingSearch</find>
+      <find>cardSearch</find>
+      <find>main</find>
+      <find>sortByReservations</find>
+      <find>add</find>
+      <find>reservation</find>
+      <find>controller</find>
+      <find>moviesbyreservations</find>
+      <find>addorupdate</find>
+      <find>reservationadd</find>
+      <find>sort</find>
+      <find>registrationDate</find>
+      <find>tableViewOrderedClients</find>
+      <find>reservationsearchcontroller</find>
+      <find>reservationperiodremov</find>
+      <find>sortClientsByPoints</find>
+      <find>search</find>
+      <find>text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,46 +207,71 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Repository/MovieRepository.java" />
-        <option value="$PROJECT_DIR$/src/Repository/ClientRepository.java" />
-        <option value="$PROJECT_DIR$/src/Repository/ReservationRepository.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Entity.java" />
-        <option value="$PROJECT_DIR$/src/Domain/IValidator.java" />
-        <option value="$PROJECT_DIR$/src/Domain/MovieValidator.java" />
-        <option value="$PROJECT_DIR$/src/Repository/IRepository.java" />
-        <option value="$PROJECT_DIR$/src/Repository/InMemoryRepository.java" />
-        <option value="$PROJECT_DIR$/src/cakeAdd.fxml" />
-        <option value="$PROJECT_DIR$/src/UI/cakeAdd.fxml" />
-        <option value="$PROJECT_DIR$/src/UI/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/Domain/Movie.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Reservation.java" />
-        <option value="$PROJECT_DIR$/src/Domain/ReservationValidator.java" />
-        <option value="$PROJECT_DIR$/src/Service/ServiceException.java" />
-        <option value="$PROJECT_DIR$/src/Domain/Client.java" />
-        <option value="$PROJECT_DIR$/src/Service/ReservationService.java" />
-        <option value="$PROJECT_DIR$/src/Service/MovieService.java" />
-        <option value="$PROJECT_DIR$/src/UI/NewConsole.java" />
-        <option value="$PROJECT_DIR$/src/UI/Console.java" />
         <option value="$PROJECT_DIR$/src/UI/Common.java" />
-        <option value="$PROJECT_DIR$/src/Service/ClientService.java" />
         <option value="$PROJECT_DIR$/src/UI/index.fxml" />
-        <option value="$PROJECT_DIR$/src/Domain/ClientValidator.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/UI/MovieAddController.java" />
         <option value="$PROJECT_DIR$/src/UI/clientAdd.fxml" />
         <option value="$PROJECT_DIR$/src/UI/ClientAddController.java" />
         <option value="$PROJECT_DIR$/src/UI/ReservationAddController.java" />
-        <option value="$PROJECT_DIR$/src/UI/Controller.java" />
         <option value="$PROJECT_DIR$/src/UI/mainWindow.fxml" />
         <option value="$PROJECT_DIR$/src/UI/reservationAdd.fxml" />
         <option value="$PROJECT_DIR$/src/UI/movieAdd.fxml" />
+        <option value="$PROJECT_DIR$/src/Domain/Exceptions/ClientValidatorException.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Exceptions/ReservationValidatorException.java" />
+        <option value="$PROJECT_DIR$/src/Domain/Exceptions/MovieValidatorException.java" />
+        <option value="$PROJECT_DIR$/src/Repository/Exceptions/RepositoryException.java" />
+        <option value="$PROJECT_DIR$/src/Repository/IRepository.java" />
+        <option value="$PROJECT_DIR$/src/Service/Exceptions/ReservationServiceException.java" />
+        <option value="$PROJECT_DIR$/src/Service/Exceptions/ClientServiceException.java" />
+        <option value="$PROJECT_DIR$/src/Service/UndoRedoOperation.java" />
+        <option value="$PROJECT_DIR$/src/Service/RemoveAllReservations.java" />
+        <option value="$PROJECT_DIR$/src/Service/RemoveOperation.java" />
+        <option value="$PROJECT_DIR$/src/Service/UpdateAllClients.java" />
+        <option value="$PROJECT_DIR$/src/Service/AddOperation.java" />
+        <option value="$PROJECT_DIR$/src/Service/UpdateOperation.java" />
+        <option value="$PROJECT_DIR$/src/UI/ReservationPeriodRemove.java" />
+        <option value="$PROJECT_DIR$/src/Resources/bonusPoints.fxml" />
+        <option value="$PROJECT_DIR$/src/UI/BonusPointsController.java" />
+        <option value="$PROJECT_DIR$/src/Resources/clientsByPoints.fxml" />
+        <option value="$PROJECT_DIR$/src/Resources/reservationPeriodRemove.fxml" />
+        <option value="$PROJECT_DIR$/src/Resources/search.fxml" />
+        <option value="$PROJECT_DIR$/movies.json" />
+        <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/clients.json" />
+        <option value="$PROJECT_DIR$/src/Repository/JsonFileRepository.java" />
+        <option value="$PROJECT_DIR$/src/UI/ReservationSearchController.java" />
+        <option value="$PROJECT_DIR$/src/Resources/reservationSearch.fxml" />
+        <option value="$PROJECT_DIR$/src/Domain/Client.java" />
+        <option value="$PROJECT_DIR$/src/Service/movieWithReservations.java" />
+        <option value="$PROJECT_DIR$/src/UI/MoviesByReservationsController.java" />
+        <option value="$PROJECT_DIR$/src/Resources/moviesByReservations.fxml" />
+        <option value="$PROJECT_DIR$/reservations.json" />
+        <option value="$PROJECT_DIR$/src/Domain/Movie.java" />
+        <option value="$PROJECT_DIR$/src/Service/ReservationService.java" />
+        <option value="$PROJECT_DIR$/src/UI/ClientsByPointsController.java" />
+        <option value="$PROJECT_DIR$/src/UI/ReservationPeriodRemoveController.java" />
+        <option value="$PROJECT_DIR$/src/Service/MovieService.java" />
+        <option value="$PROJECT_DIR$/src/UI/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/Resources/mainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/UI/Controller.java" />
+        <option value="$PROJECT_DIR$/src/Service/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/Domain/ClientValidator.java" />
+        <option value="$PROJECT_DIR$/src/Domain/MovieValidator.java" />
+        <option value="$PROJECT_DIR$/src/Domain/ReservationValidator.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -236,7 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,29 +303,61 @@
               <item name="Lab2Cinema" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab2Cinema" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2Cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2Cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2Cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2Cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2Cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2Cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2Cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553953293634" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/UI/index.fxml" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/gson-2.6.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Lab2\Lab2Cinema\src\Resources" />
       <recent name="D:\Projects\Lab2\Lab2Cinema\src\UI" />
     </key>
   </component>
@@ -361,11 +437,11 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19839142" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.211126" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.11756374" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21954674" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.23371105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44617563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -374,7 +450,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.33144477" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32808024" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32719547" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="13" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -428,110 +504,476 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UI/Controller.java</url>
-          <line>89</line>
+          <url>file://$PROJECT_DIR$/src/Service/ReservationService.java</url>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UI/MovieAddController.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/UI/ClientsByPointsController.java</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Domain/Movie.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/UI/SearchController.java</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((Controller)this).movieService" custom="UI.Controller" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/Domain/Reservation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Cofetarie/Cofetarie.iml" />
-    <entry file="file://$PROJECT_DIR$/src/Domain/IValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/ReservationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" column="77" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
+        <state relative-caret-position="119">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/MovieRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/cakeAdd.fxml" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14654">
-          <caret line="862" selection-start-line="862" selection-end-line="862" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/IRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="340">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/DomainException.java" />
-    <entry file="file://$PROJECT_DIR$/src/Domain/ReservationValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/Repository/MovieRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="119">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/NewConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1327">
+          <folding>
+            <element signature="e#0#3677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/gson-2.6.2.jar!/com/google/gson/stream/JsonReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="e#2752#2753#0" expanded="true" />
+            <element signature="e#2790#2791#0" expanded="true" />
+            <element signature="e#2830#2831#0" expanded="true" />
+            <element signature="e#2865#2866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/gson-2.6.2.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/collections/ModifiableObservableListBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/movieAdd.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/MovieAddController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/ServiceException.java" />
-    <entry file="file://$PROJECT_DIR$/src/Repository/ClientRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/Resources/reservationPeriodRemove.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="452">
+          <caret line="69" column="19" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/reservationAdd.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/moviesByReservations.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/MoviesByReservationsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/reservationSearch.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="84" lean-forward="true" selection-start-column="84" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservations.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/ReservationAddController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/JsonFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+            <element signature="e#2049#2050#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/clientsByPoints.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/ReservationSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2707#2708#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
+            <element signature="e#2777#2778#0" expanded="true" />
+            <element signature="e#2813#2814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/RemoveAllReservations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/ReservationPeriodRemoveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/search.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/movieWithReservations.java" />
+    <entry file="file://$PROJECT_DIR$/src/Service/MovieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+          <folding>
+            <element signature="e#66921#66922#0" expanded="true" />
+            <element signature="e#83880#83881#0" expanded="true" />
+            <element signature="e#83916#83917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8411" selection-start-line="8411" selection-end-line="8411" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/stage/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2262">
+          <caret line="473" selection-start-line="473" selection-end-line="473" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="2494" selection-start-line="2494" selection-end-line="2494" />
+          <folding>
+            <element signature="e#66572#66573#0" expanded="true" />
+            <element signature="e#66618#66619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setService#0;class#SearchController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/mainWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1184">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="n#Label#0;n#children#0;n#VBox#0;n#children#0;n#AnchorPane#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#4983#4984#0" expanded="true" />
+            <element signature="e#5016#5017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/UpdateAllClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/ClientsByPointsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/BonusPointsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ClientValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/MovieValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/UpdateOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/AddOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/RemoveOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/UndoRedoOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -540,235 +982,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/ReservationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="63" selection-start-line="63" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="412">
+          <caret line="155" column="23" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/MovieService.java">
+    <entry file="file://$PROJECT_DIR$/src/Domain/ReservationValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="172" column="70" selection-end-line="279" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/InMemoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/ClientValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-          <folding>
-            <element signature="e#3863#3864#0" expanded="true" />
-            <element signature="e#3904#3905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/control/TableView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="842" column="57" selection-start-line="842" selection-start-column="57" selection-end-line="842" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/index.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/Domain/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="497" selection-start-line="497" selection-end-line="497" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/com/sun/glass/ui/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="936" selection-start-line="936" selection-end-line="936" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="1768" selection-start-line="1768" selection-end-line="1768" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/MovieValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/MovieAddController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/movieAdd.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="205" column="38" selection-start-line="205" selection-start-column="16" selection-end-line="205" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/mainWindow.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="144" column="15" selection-start-line="144" selection-start-column="15" selection-end-line="144" selection-end-column="15" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/NewConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/reservationAdd.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/ReservationAddController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/ClientAddController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/clientAdd.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="88" selection-start-line="65" selection-start-column="88" selection-end-line="65" selection-end-column="88" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lab2Cinema</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.6.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

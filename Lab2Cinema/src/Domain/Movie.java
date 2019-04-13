@@ -19,6 +19,16 @@ public class Movie extends Entity {
         this.bookings = 0;
     }
 
+    public Movie(Movie toCopy) {
+        super(toCopy.getId());
+        this.title = toCopy.getTitle();
+        this.releaseYear = toCopy.getReleaseYear();
+        this.price = toCopy.getPrice();
+        this.airing = toCopy.isAiring();
+        this.bookings = toCopy.getBookings();
+    }
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
